@@ -9,9 +9,9 @@ sub createTicket;
 
 # Configuro la conexión al trac.
 my $trac = Net::Trac::Connection->new(
-        url      => 'http://localhost:8000/CNTI-14-09-2',
-	user	 => 'anonymous',
-	password => '123321...',
+    url      => 'https://desarrollo.covetel.com.ve/CNTI-14-09',
+	user	 => 'walter',
+	password => '',
     );
 
 # Leo el archivo de tareas
